@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.display-bug { display: inline; }
+
+/* form */
+.ui-note { display: inline; }
+
+.help-link-right { display: inline; zoom: 1; }
+
+/* Someone has added a text-indent of -9999 to the icon-16 class in Common - overriding that here because it breaks IE 6 & 7 */
+.icon-16 { text-indent:0px; }

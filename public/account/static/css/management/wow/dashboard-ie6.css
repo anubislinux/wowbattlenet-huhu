@@ -1,0 +1,67 @@
+@charset "utf-8"; 
+
+/* general layout */
+
+.dashboard { background: #d3d1ce; }
+.dashboard .primary { height: 336px; }
+.dashboard .section.account-details { overflow: hidden; }
+.dashboard .section.box-art { overflow: hidden; }
+
+/* lightweight dashboard */
+.dashboard .lightweight-actions { display: inline; }
+
+/* download button */
+a.disabled,
+a.disabled:hover,
+a.disabled:focus { filter: alpha(opacity=50); }
+
+/* age gate */
+.age-gate { width: 452px; }
+
+/* more downloads */
+a.more-downloads { white-space: nowrap; }
+
+/* disabled button */
+.game-upgrade ul li a.unavailable,
+.game-upgrade ul li a.unavailable:hover,
+.game-upgrade ul li a.unavailable:focus { filter: alpha(opacity=25); }
+
+/* dashboard inline form */
+div.dashboard-form form { height: 264px; }
+.dashboard-form form .pay-options label { height: 50px; }
+
+/* wow services */
+div.service-links ul { height: 1%; }
+
+/* game upgrade */
+.game-upgrade { background-image: none; }
+.game-upgrade ul { height: 116px; }
+.game-upgrade ul li,
+.game-upgrade ul li a { margin: 0; height: 1%; }
+.game-upgrade.wow-remote .remote-image  { background-image: url("../../images/wow-remote/wow-remote-ie6.001ET.png"); }
+.upgrade-available { background: url("../../images/dashboard/upgrade/upgrade-available-ie6.1Whim.png") no-repeat 0 0; }
+.upgrade-pending { background: url("../../images/dashboard/upgrade/upgrade-pending-arrow-msie.0AFS5.png") no-repeat 54px top; }
+.upgrade-pending .upgrade-message { background-color: #fff; }
+.active-trial { background: url("../../images/dashboard/trial/trial-ie6.3IM9c.png") no-repeat 0 0; }
+.trial-time-remaining { background: url("../../images/dashboard/trial/trial-blank-ie6.0LzC3.png") no-repeat 0 0; }
+.account-suspended { background: url("../../images/dashboard/review/suspended-review-ie6.4Fnf3.png") no-repeat 0 0; }
+.chargeback-available { background: url("../../images/dashboard/chargeback/chargeback-available-ie6.0xzk6.png") no-repeat 0 0; }
+.payment-expired { background: url("../../images/dashboard/expired/expired-ie6.1XbhP.png") no-repeat 0 0; }
+
+/* upgrade options */
+.upgrade-details,
+.upgrade-options,
+.single-upgrade { position: relative; zoom: 1; }
+.upgrade-title { display: inline; zoom: 1; }
+
+/* dashboard inline form */
+.dashboard-form form .pay-options label.hover span { background-color: #a8a9ab; }
+.dashboard-form form .pay-options label.selected span,
+.dashboard-form form .pay-options label.selected:hover span,
+.dashboard-form form .pay-options label.selected:focus span { background-color: #565c67; color: #fff; }
+
+/* upgrade options */
+.download-container .client-download a.download .icon { background-image: url("../../images/dashboard/trial/os_icons-ie6.1qCUV.gif"); }
+
+/* S2 SE background remove */
+.upgrade-images, #details-productID-hots-se .upgrade-thumbnails { background-image: none; }

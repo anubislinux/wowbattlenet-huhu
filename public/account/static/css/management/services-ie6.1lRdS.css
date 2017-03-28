@@ -1,0 +1,15 @@
+/* fffff */
+.service-form { position: relative; zoom: 1; width:650px; }
+.confirm-service-label { float: left; padding: 10px; }
+.confirm-service-details { padding: 10px; display: inline-block; float: left; width: 300px; }
+
+.service-interior .override { width: 31.6%; }
+.sor-section-controls .override { width: 31.6%; }
+
+.tertiary-tag ul {margin:10px 0 0;padding:0;list-style-type: disc; list-style-position:inside;}
+.tertiary-tag ul li { position:static;}
+.tertiary-tag ul li span {display:none;  }
+
+.character-list .character-status .status-error { position:relative; top:-50px; color: #944a4a; font-size:14px; }
+.character-list .character-status .status-clu { position:relative; top:-50px; font-size:14px; }
+.character-list .character-status .status-options { position:relative; top:-50px; }

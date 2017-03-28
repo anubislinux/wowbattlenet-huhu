@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^(.*)$ public/$1
+AddDefaultCharset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml

@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+.display-bug { display: inline; }
+
+/* form */
+form { zoom: 1; }
+.input { color: #5a5a5a; }
+.ui-note { display: inline; }
+
+/* default button */
+body .hover span { background-position: center -32px; }
+.disabled span { border-color: #bdbcb9; }
+.processing span,
+body button.processing span { color: transparent; border-color: #bdbcb9; background-position: center -64px; }
+.button1 span span.hover { background-position: center -32px; }
+
+/* layout */
+#layout-top { background: url("../images/layout/bg-sides-msie.3mEQ0.png") bottom center no-repeat; z-index: 100; /* z-index is needed for explore menu dropdown */ }
+#layout-middle { height: 400px; z-index: 50; /* z-index is needed for explore menu dropdown */ }
+#layout-bottom,
+#layout-bottom .wrapper { position: relative; }
+
+/* header */
+#header { z-index: 50; /* z-index is needed for explore menu dropdown */ }
+#service { z-index: 100; /* z-index is needed for explore menu dropdown */ }
+#header #logo a { background: none; cursor: pointer; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/account/static/local-common/images/logos/bnet-default.png', sizingMethod='image'); }
+#header #navigation { background: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/account/static/local-common/images/opacity-black.png', sizingMethod='scale'); }
+
+#header #navigation h2 { zoom: 1; }
+#header .ui-breadcrumb li { background: url("../local-common/images/icons/arrows.1zH8l.gif") 105% -91px no-repeat; }
+
+#navigation { width: 990px; }
+
+#navigation #page-menu .flyout-menu { position: absolute; zoom: 1; }
+#navigation #page-menu .flyout-menu li { height: 20px; }
+#navigation #page-menu li.account-balance .flyout-menu li.selected span { background: url("../images/icons/arrows.4ORA7.gif") no-repeat 0 -152px; }
+
+#search-bar { margin-right: -10px }
+
+/* form */
+.form-row .add-label { zoom: 1; }
+
+/* dropdown */
+.ui-dropdown .dropdown-toggler { cursor: pointer; }
+.ui-dropdown .dropdown-toggler:hover,
+.ui-dropdown .dropdown-toggler:focus { color: #fff; }
+
+/*e-bank balance dropdown*/
+.ebank-balance { width: 190px; margin-right: -10px; }
+
+/* section */
+.section-header { height: 50px; margin-bottom: 0; }
+
+/* fieldsets */
+fieldset.ui-controls { padding-top: 2em; }
+
+/* alerts */
+.alert.error,
+.alert.error .alert-inner,
+.alert.caution,
+.alert.caution .alert-inner,
+.alert.success,
+.alert.success .alert-inner,
+.alert.info,
+.alert.info, .alert-inner { background-image: none; }
+.alert-inner { display: inline-block; }
+.alert .alert-close { background: url("../images/icons/close-small.4XN5j.gif") no-repeat right center; }
+.alert .alert-message { height: 30px; overflow-y: visible; }
+
+
+/* headlines */
+.zh-tw h3.headline { line-height: 1.3; }
+
+/* dialog */
+.ui-dialog { zoom: 1 }
+.ui-dialog .ui-dialog-title { float: left; }
+
+/* kr postal code lookup */
+#zip-code { position: absolute; top: -450px; }
+#blackout { background: none }
+
+/* note */
+.ui-note, .ui-note .note-toggler { display: inline; }
+.ui-note .form-note { left: 28px; top: -45px }
+.ui-note .close-note { background-image: url('../images/icons/close-small.4XN5j.gif'); }
+
+/* lists */
+.confirm-notice li { list-style-image: url("../images/icons/warning-background.1sp4H.gif") }
+.confirm-notice span { position: relative; top: -8px; line-height: 19px; }
+
+/* authentication device selection */
+li.device .content .checkmark { background: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/check-lrg.png', sizingMethod='image'); }
+
+/*Payment Module */
+#payment-wrapper .section-box2 { position: relative; }
+
+#password-note { position: absolute; z-index: 10000; }
+
+/* account success page */
+.obNotice .caution { background: url("../images/icons/warning-background.1sp4H.gif") no-repeat 0 0; }
+
+/* digital purchase */
+/*.ui-button-large.position { margin: 0 0 0 30px; }*/
+/*.ui-button-large.position.float { float: left; margin: 0 560px 0 0; }*/
+
+/* landing */
+.download a .icon { background-image: url("../images/icons/os.26OJU.gif"); }
+
+/* buttons */
+/*
+@todo IE sees this as .hover, so it's applying this rule where it shouldn't be. Need to find an alternate solution.
+.ui-button-large.hover span { background: url("../images/buttons/large-blue-ie6.gif") repeat-x 0 0 !important; }
+*/
+
+.parental-info .form-row .form-left{ display: inline; zoom: 1; }
+.parental-info .form-row .form-right{ display: inline; zoom: 1; }
+
+.section-wrapper .section-box,
+.section-wrapper .section-box2 { height: 140px; }
+
+.help-link-right { display: inline; zoom: 1; }
+
+.game-region-global strong span { background-image: url("../images/icons/sprite-ie6.1009s.png"); }
+
+/* Someone has added a text-indent of -9999 to the icon-16 class in Common - overriding that here because it breaks IE 6 & 7 */
+.icon-16 { text-indent:0px; }

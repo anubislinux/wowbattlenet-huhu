@@ -1,0 +1,3 @@
+#lobby-account .lobby-box p.has-authenticator-has-active { background: url("../../images/icons/on-off-ie6.33wuo.png") no-repeat 0 0; }
+#lobby-account .lobby-box p.has-authenticator-none-active { background: url("../../images/icons/on-off-ie6.33wuo.png") no-repeat 0 -64px; }
+#lobby-account .lobby-box p.none-authenticator { background: url("../../images/icons/on-off-ie6.33wuo.png") no-repeat 0 -32px; }

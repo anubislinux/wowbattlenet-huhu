@@ -1,0 +1,6 @@
+/* columns */
+.column { overflow: hidden; }
+.columns-3 .column { width: 33%; }
+
+ul.wow-services li.category { font-size:14px; line-height:15px; }
+ul.wow-services li.category a { display: block; height: 72px; padding: 16px 8px 0 80px; width: 159px; color: #fff; background: #82807d url("../../../images/dashboard/wow/buttons/services.29H1I.jpg") no-repeat 0 0; }

@@ -1,0 +1,90 @@
+/**
+ * @fileOverview    Styles for full-page DDE upsell covering the dashboard following SE code claim
+ */
+#content {
+  position: relative;
+}
+#content .full-page-upsell {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 25px;
+  width: 1014px;
+  -webkit-transition: opacity 400ms ease-in-out;
+  -moz-transition: opacity 400ms ease-in-out;
+  -o-transition: opacity 400ms ease-in-out;
+  transition: opacity 400ms ease-in-out;
+}
+#content .full-page-upsell.active {
+  opacity: 1;
+  z-index: 10;
+}
+#content .full-page-upsell.active.standalone {
+  margin-bottom: 50px;
+  position: relative;
+}
+#content .full-page-upsell.active + .dashboard {
+  margin-bottom: 100px;
+  opacity: 0;
+}
+#content .full-page-upsell.active + .dashboard .secondary,
+#content .full-page-upsell.active + .dashboard .product-rating-wrapper {
+  max-height: 0;
+}
+#content .full-page-upsell .alert-page {
+  display: inline-block;
+  padding: 20px 0 0 40px;
+  width: auto;
+}
+#content .full-page-upsell .alert-page .success-description {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+}
+#content .full-page-upsell .alert-page .success-description .product-title {
+  font-weight: normal;
+}
+#content .full-page-upsell .alert-page .summary-upgrade {
+  background-color: #e0dfdd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 1.5em;
+  min-height: 240px;
+  padding: 25px;
+  position: relative;
+}
+#content .full-page-upsell .alert-page .summary-upgrade h1 {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+#content .full-page-upsell .alert-page .summary-upgrade p {
+  width: 360px;
+}
+#content .full-page-upsell .alert-page .summary-upgrade ul {
+  margin-top: 12px;
+  padding-left: 0;
+}
+#content .full-page-upsell .alert-page .summary-upgrade li {
+  line-height: 1.25;
+  list-style-type: none;
+}
+#content .full-page-upsell .escape-flow {
+  margin: 30px 0 0 364px;
+}
+#content .dashboard {
+  -webkit-transition: opacity 400ms ease-in-out;
+  -moz-transition: opacity 400ms ease-in-out;
+  -o-transition: opacity 400ms ease-in-out;
+  transition: opacity 400ms ease-in-out;
+}
+#content .dashboard .secondary,
+#content .dashboard .product-rating-wrapper {
+  max-height: 5000px;
+  -webkit-transition: max-height 400ms ease-in-out;
+  -moz-transition: max-height 400ms ease-in-out;
+  -o-transition: max-height 400ms ease-in-out;
+  transition: max-height 400ms ease-in-out;
+}
